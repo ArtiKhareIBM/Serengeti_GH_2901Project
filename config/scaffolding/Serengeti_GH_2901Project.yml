@@ -7,6 +7,15 @@ packages:
   gitUrl: https://github.com/ArtiKhareIBM
   gitUsername: ArtiKhareIBM
   gitBranch: main
+services:
+- serviceName: project.serengeti_gh_2901.integrations:jsonToDocument
+  packages:
+  - name: Serengeti_GH_2901Project
+    version: "1.0"
+- serviceName: pub.json:jsonToDocument
+  packages:
+  - name: WmPublic
+    version: 11.1.0.0.2105
 configurationVariables:
   jdbc.SAP TxStore Pool.maxConns: "10"
   jdbcfunc.SAPTxStore.failFastMode: false
