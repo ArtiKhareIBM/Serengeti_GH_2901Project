@@ -222,7 +222,7 @@
   <DATA ENCODING="XMLValues" I18N="true">
 
 <Values version="2.0">
-  <value name="xml">Integer</value>
+  <value name="xml">String</value>
 </Values>
 </DATA>
 </MAPSET>
